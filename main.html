@@ -1,37 +1,23 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<div id="main-login">
-		<div id="roll-1" class="left">
-			<img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook logo">
-			<p>Facebook helps you connect and share with the people in your life.</p>
-		</div>
-		
-		<div id="roll-2" class="right">
-			
-	     	<form >
-				<input id="email" name="user_name" placeholder="Email address or phone number" type="text" required  aria-label="Email address or phone number"><br><br>
-				<input id="password" name="user_password" placeholder="Password" type="password" required aria-label="password"><br><br>
-				<button type="submit" >Log in</button><br><br>
-				<a href="#" >Forgotton account? </a>
-				<hr>
-				
-				
-				
-			</form>
-			<button type="button"  class="signup" id="btn-2" onclick="window.location.href='/reg/'">Create new account</button>
-		</div>
-	</div>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div id="main-login">
+    <div class="left">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
+      <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+    <div class="right">
+      <form>
+        <input id="email" type="text" placeholder="Email address or phone number">
+        <input id="password" type="password" placeholder="Password">
+        <button type="submit">Log in</button>
+        <a href="#">Forgotten account?</a>
+      </form>
+      <button class="signup">Create new account</button>
+    </div>
+  </div>
 </body>
-
 </html>
